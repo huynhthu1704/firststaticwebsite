@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="public/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="public/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/97f64399dd.js" crossorigin="anonymous"></script>
+    <title>Huynh Thi Ngoc Thu - 20211TT0665</title>
+</head>
+
+<body>
+    <div id="top"></div>
+    <!-- header section -->
+    <section class="header">
+        <!-- navbar -->
+        <nav>
+            <div class="small-container">
+                <div class="navbar">
+                    <div class="nav-logo">
+                        <i class="fas fa-times" onclick="hideMenu()"></i>
+                        <i class="fas fa-bars" onclick="showMenu()"></i>
+                        <a href="#" class="logo-img"><img src="public/images/logo-default-210x88.png" alt=""></a>
+                    </div>
+                    <div class="nav-links" id="navLinks">
+                        <ul>
+                            <li><a href="#" class="nav-item active">HOME</a></li>
+                            <li><a href="#" class="nav-item">PAGES</a></li>
+                            <li><a href="#" class="nav-item">BLOG</a></li>
+                            <li><a href="#" class="nav-item">GALLERY</a></li>
+                            <li><a href="#" class="nav-item">ELEMENTS</a></li>
+                            <li><a href="#" class="nav-item">SHOP</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-utilities">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-cart-plus"></i>
+                        <i class="fas fa-align-left"></i>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- banner -->
+        <div class="banner">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="public/images/slide-1.jpg" class="d-block w-100 carousel-img1" alt="">
+                        <div class="carousel-caption carouselcaption1 d-lg-block d-sm-block d-md-block">
+                            <h1 class="feature">TOP-NOTCH FURNITURE</h1>
+                            <p class="feature-exp">Sofa Store provides the best furniture and accessories for homes and
+                                offices.</p>
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="public/images/slide-2.jpg" class="d-block w-100 carousel-img2" alt="">
+                        <div class="carousel-caption carouselcaption2 d-md-block">
+                            <h1>QUALITY <br class="d-none d-lg-block">
+                                <span style="opacity: 0.5;">DECOR</span>
+                            </h1>
+                            <p class="feature-exp">Choose anything you need from a wide range of impressive home decor
+                                solutions.</p>
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="public/images/slide-3.jpg" class="d-block w-100 carousel-img3" alt="">
+                        <div class="carousel-caption carouselcaption2 d-md-block">
+                            <h1>IMPRESSIVE <br class="d-none d-lg-block">
+                                <span style="opacity: 0.5; margin-left: 5px;"> LIGHTING</span>
+                            </h1>
+                            <p class="feature-exp">Improve your home’s lighting with hundreds of products available at
+                                Sofa.</p>
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon btn" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon btn" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- categories section -->
+    <section class="categories">
+        <h1>CATEGORIES</h1>
+        <div class="cate-row">
+            <div class="cate-item">
+                <i class="fas fa-couch cate-icon"></i>
+                <div class="cate-title">
+                    <h4>LIVING ROOM</h4>
+                    <p>Sofas, coffee tables, couches</p>
+                </div>
+            </div>
+
+            <div class="cate-item">
+                <i class="fas fa-bed cate-icon"></i>
+                <div class="cate-title">
+                    <h4>BEDROOM</h4>
+                    <p>Beds, nightstands, dressers</p>
+                </div>
+            </div>
+
+            <div class="cate-item">
+                <i class="fas fa-chair cate-icon"></i>
+                <div class="cate-title">
+                    <h4>DINING ROOM</h4>
+                    <p>Tables, chairs, cabinets</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cate-row">
+            <div class="cate-item">
+                <i class="fas fa-bath cate-icon"></i>
+                <div class="cate-title">
+                    <h4>BATHROOM</h4>
+                    <p>Vanities, mirrors, lighting</p>
+                </div>
+            </div>
+
+            <div class="cate-item">
+                <i class="fas fa-tv cate-icon"></i>
+                <div class="cate-title">
+                    <h4>DECOR & FURNITURE</h4>
+                    <p>Cushions, wall art, drapery</p>
+                </div>
+            </div>
+
+            <div class="cate-item">
+                <i class="fas fa-baby cate-icon"></i>
+                <div class="cate-title">
+                    <h4>KIDS ROOM</h4>
+                    <p>Kids beds, trundlers, dressers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- trend product section -->
+    <section class="trendproducts">
+        <h1>TRENDING PRODUCTS</h1>
+        <div class="trend-row">
+            <div class="product-container">
+                <div class="product">
+                    <div class="product-tag">
+                        <h6 class="sale">SALE</h6>
+                    </div>
+                    <div class="product-img">
+                        <img src="public/images/product-1-129x172.png" alt="">
+                    </div>
+                    <h5>GARDEN TABLE</h5>
+                    <p>$23.00</p>
+                    <div class="searchAndCart">
+                        <i class="fas fa-search" id="searchIcon"></i>
+                        <i class="fas fa-cart-plus" id="cartIcon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product">
+                    <div class="product-tag">
+                        <h6 class="new">NEW</h6>
+                    </div>
+                    <div class="product-img">
+                        <img src="public/images/product-2-160x155.png" alt="">
+                    </div>
+                    <h5>CLUB CHAIR</h5>
+                    <p>$13.00</p>
+                    <div class="searchAndCart">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-cart-plus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product">
+                    <div class="product-tag">
+                    </div>
+                    <div class="product-img">
+                        <img src="public/images/product-3-132x200.png" alt="">
+                    </div>
+                    <h5>PENDANT LAMP</h5>
+                    <p>$17.00</p>
+                    <div class="searchAndCart">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-cart-plus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product">
+                    <div class="product-tag">
+                        <h6 class="new">NEW</h6>
+                    </div>
+                    <div class="product-img">
+                        <img src="public/images/product-4-140x168.png" alt="">
+                    </div>
+                    <h5>DARK GREY CLUB CHAIR</h5>
+                    <p>$14.00</p>
+                    <div class="searchAndCart">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-cart-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="trend-row">
+            <div class="product-container">
+                <div class="product">
+                    <div class="product-tag">
+                        <h6 class="new">NEW</h6>
+                    </div>
+                    <div class="product-img">
+                        <img src="public/images/product-5-131x168.png" alt="">
+                    </div>
+                    <h5>TABLE LAMP</h5>
+                    <p>$11.00</p>
+                    <div class="searchAndCart">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-cart-plus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product">
+                    <div class="product-tag">
+                    </div>
+                    <div class="product-img">
+                        <img src="public/images/product-6-110x69.png" alt="">
+                    </div>
+                    <h5>ORANGE STACKING CHAIR</h5>
+                    <p>$15.00</p>
+                    <div class="searchAndCart">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-cart-plus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product">
+                    <div class="product-tag">
+                        <h6 class="sale">SALE</h6>
+                    </div>
+                    <div class="product-img">
+                        <img src="public/images/product-7-121x201.png" alt="">
+                    </div>
+                    <h5>FLOOR LAMP</h5>
+                    <p>$22.00</p>
+                    <div class="searchAndCart">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-cart-plus"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product">
+                    <div class="product-tag">
+                    </div>
+                    <div class="product-img">
+                        <img src="public/images/product-8-128x179.png" alt="">
+                    </div>
+                    <h5>WHITE CHAIR</h5>
+                    <p>$10.00</p>
+                    <div class="searchAndCart">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-cart-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- introduction section -->
+    <section class="introduction">
+        <div class="container">
+            <div class="introduction-col introduction-col-1">
+                <img src="public/images/about-8-668x330.png" alt="">
+            </div>
+
+            <div class="introduction-col introduction-col-2">
+                <h1>PROVIDING THE BEST FURNITURE AND DECOR</h1>
+                <p>At Sofa, we aim to supply our customers with the first-class furniture & decor products that
+                    make their life comfortable.</p>
+                <div class="fouder-sign">
+                    <div class="nameAndPosition">
+                        <i class="fas fa-arrow-circle-right"></i>
+                        <div class="temp">
+                            <span class="name">Sam Williams</span>
+                            <br>
+                            <span class="position"><i> Founder</i></span>
+                        </div>
+                    </div>
+                    <div class="sign">
+                        <img src="public/images/signature-1-160x55.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- protfolio section -->
+    <section class="portfolio">
+        <div class="small-container">
+            <h1>PORTFOLIO</h1>
+            <div class="grid">
+                <div class="portfolio-img img1">
+                    <img src="public/images/portfolio-7-270x250.jpg" alt="">
+                    <div class="product-infor">
+                        <div class="product-infor-container">
+                            <h5 class="product-name">SUNSHINE RESTAURANT</h5>
+                            <h6 class="categoty">DECOR</h6>
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-img img2">
+                    <img src="public/images/portfolio-5-270x530.jpg" alt="">
+                    <div class="product-infor">
+                        <div class="product-infor-container">
+                            <h5 class="product-name">QUADRO HOTEL</h5>
+                            <h6 class="categoty">FURNITURE</h6>
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-img img3">
+                    <img src="public/images/portfolio-3-270x250.jpg" alt="">
+                    <div class="product-infor">
+                        <div class="product-infor-container">
+                            <h5 class="product-name">U-STYLE-FASHION HOUSE</h5>
+                            <h6 class="categoty">DECOR</h6>
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-img img4">
+                    <img src="public/images/portfolio-4-270x250.jpg" alt="">
+                    <div class="product-infor">
+                        <div class="product-infor-container">
+                            <h5 class="product-name">FLASH CAFE</h5>
+                            <h6 class="categoty">FURNITURE</h6>
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-img img5">
+                    <img src="public/images/portfolio-6-270x250.jpg" alt="">
+                    <div class="product-infor">
+                        <div class="product-infor-container">
+                            <h5 class="product-name">NEWYORK PUBLIC LIBRARY</h5>
+                            <h6 class="categoty">DECOR</h6>
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-img img6">
+                    <img src="public/images/portfolio-1-570x530.jpg" alt="">
+                    <div class="product-infor">
+                        <div class="product-infor-container">
+                            <h5 class="product-name">Q-BIZ-COWORKING</h5>
+                            <h6 class="categoty">FURNITURE</h6>
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-img img7">
+                    <img src="public/images/portfolio-2-570x250.jpg" alt="">
+                    <div class="product-infor">
+                        <div class="product-infor-container">
+                            <h5 class="product-name">MONROE'S BAR</h5>
+                            <h6 class="categoty">DECOR</h6>
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section -->
+    <section class="blog">
+        <div class="small-container">
+            <h1 class="text-center section-title">BLOG</h1>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="public/images/post-10-420x368.jpg" alt="">
+                    <div class="blog-title">
+                        <a href="#">TOP 20 INTERIOR HOME DECOR TRENDS OF 2020</a>
+                        <br>
+                        <div class="date">August 9, 2020</div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <img src="public/images/post-11-420x368.jpg" alt="">
+                    <div class="blog-title">
+                        <a href="#">HOW TO CHOOSE FURNITURE FOR YOUR HOME</a>
+                        <br>
+                        <div class="date">August 9, 2020</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="public/images/post-12-420x368.jpg" alt="">
+                    <div class="blog-title">
+                        <a href="#">LED LIGHTING AND ITS BENEFITS FOR HOMEOWNERS</a>
+                        <br>
+                        <div class="date">August 9, 2020</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="public/images/post-13-420x368.jpg" alt="">
+                    <div class="blog-title">
+                        <a href="#">WHAT TO LOOK FOR WHEN SHOPING FOR CHAIRS ONLINE</a>
+                        <br>
+                        <div class="date">August 9, 2020</div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="public/images/post-14-420x368.jpg" alt="">
+                    <div class="blog-title">
+                        <a href="#">WAYS TO DECORATE YOUR HOME WITH COLOR RED</a>
+                        <br>
+                        <div class="date">August 9, 2020</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- infor section -->
+    <section class="infor">
+        <div class="small-container infor-container">
+            <div class="infor-item">
+                <div class="infor-img">
+                    <img src="public/images/logo-inverse-212x88.png" alt="" style="font-size: 20px;">
+                </div>
+                <ul>
+                    <li>
+                        <div>
+                            <span>Weekdays:</span>
+                            <span class="span">08:00am - 08:00pm</span>
+
+                        </div>
+                        <div class="week">
+                            <span>Weekends:</span>
+                            <span class="span">10:00am - 06:00pm</span>
+                        </div>
+
+                    </li>
+                    <li>
+                        <hr style="color: white;">
+                    </li>
+                    <li>
+                        <div>
+                            <span style="color: white;">Get social</span>
+                            <span class="span social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-google-plus-g"></i>
+                            </span>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class="infor-item1">
+                <div class="container">
+                    <h4>CONTACTS</h4>
+                    <ul class="addressAndPhone">
+                        <li class="spanAdress">
+                            <span><i class="fas fa-map-marker-alt"></i></span>
+                            <a href="#" class="address span">
+                                <span>523 Sylvan Ave, 5th Floor</span>
+                                <span> Mountain View, CA 94041 USA</span>
+                            </a>
+                        </li>
+                        <li>
+                            <span><i class="fas fa-phone-alt"></i></span>
+                            <span class="span">
+                                <a href="">+1 (844) 123 456 78</a>
+                            </span>
+                        </li>
+                        <li>
+                            <span><i class="far fa-envelope"></i></span>
+                            <span class="span"><a href="mailto:">info@demolink.org</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="infor-item2">
+                <h4>NEWSLETTER</h4>
+                <ul>
+                    <li>Subscribe to our newsletter to receive weekly news, updates, special offers, and
+                        exclusive discounts.
+                    </li>
+                    <li class="email">
+                        <form action="#" method="post" class="form">
+                            <div>
+                                <input type="text" class="form-control"  name="email"
+                                    id="useremail" placeholder="Enter your email">
+                            </div>
+                            <button type="submit" id="submit"><i class="far fa-paper-plane"></i></button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer">
+        <div class="small-container footer-container">
+            <div class="footer-item rightReserved">
+                <p>&copy;2021 Sofa. All rights reserved</p>
+            </div>
+            <div class="footer-item payment">
+                <img src="public/images/payment-1-45x15.png" alt="">
+                <img src="public/images/payment-2-46x28.png" alt="">
+                <img src="public/images/payment-3-62x17.png" alt="">
+            </div>
+            <div class="footer-item policy">
+                <p> Privacy Policy</p>
+            </div>
+        </div>
+    </section>
+
+    <a href="#top" class="toTop"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="public/js/script.js"></script>
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
